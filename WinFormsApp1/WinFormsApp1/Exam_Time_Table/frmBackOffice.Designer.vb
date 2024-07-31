@@ -82,10 +82,10 @@ Partial Class frmBackOffice
         StatusStrip1.AutoSize = False
         StatusStrip1.ImageScalingSize = New Size(20, 20)
         StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel4, lblUser, ToolStripStatusLabel3, lblDateTime})
-        StatusStrip1.Location = New Point(0, 720)
+        StatusStrip1.Location = New Point(0, 1002)
         StatusStrip1.Name = "StatusStrip1"
-        StatusStrip1.Padding = New Padding(1, 0, 16, 0)
-        StatusStrip1.Size = New Size(1370, 29)
+        StatusStrip1.Padding = New Padding(1, 0, 23, 0)
+        StatusStrip1.Size = New Size(1924, 48)
         StatusStrip1.TabIndex = 63
         StatusStrip1.Text = "StatusStrip1"
         ' 
@@ -94,7 +94,7 @@ Partial Class frmBackOffice
         ToolStripStatusLabel4.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         ToolStripStatusLabel4.ForeColor = Color.Black
         ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
-        ToolStripStatusLabel4.Size = New Size(94, 24)
+        ToolStripStatusLabel4.Size = New Size(143, 41)
         ToolStripStatusLabel4.Text = "Logged in As :"
         ' 
         ' lblUser
@@ -103,14 +103,14 @@ Partial Class frmBackOffice
         lblUser.ForeColor = Color.Black
         lblUser.Image = CType(resources.GetObject("lblUser.Image"), Image)
         lblUser.Name = "lblUser"
-        lblUser.Size = New Size(95, 24)
+        lblUser.Size = New Size(133, 41)
         lblUser.Text = "User Name"
         ' 
         ' ToolStripStatusLabel3
         ' 
         ToolStripStatusLabel3.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        ToolStripStatusLabel3.Size = New Size(1075, 24)
+        ToolStripStatusLabel3.Size = New Size(1499, 41)
         ToolStripStatusLabel3.Spring = True
         ToolStripStatusLabel3.Text = "DATA PROCESSING"
         ' 
@@ -120,7 +120,7 @@ Partial Class frmBackOffice
         lblDateTime.ForeColor = Color.Black
         lblDateTime.Image = CType(resources.GetObject("lblDateTime.Image"), Image)
         lblDateTime.Name = "lblDateTime"
-        lblDateTime.Size = New Size(89, 24)
+        lblDateTime.Size = New Size(125, 41)
         lblDateTime.Text = "Date Time"
         ' 
         ' OpenFileDialog1
@@ -130,10 +130,10 @@ Partial Class frmBackOffice
         ' txtOpenID
         ' 
         txtOpenID.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtOpenID.Location = New Point(276, 184)
-        txtOpenID.Margin = New Padding(4, 3, 4, 3)
+        txtOpenID.Location = New Point(394, 307)
+        txtOpenID.Margin = New Padding(6, 5, 6, 5)
         txtOpenID.Name = "txtOpenID"
-        txtOpenID.Size = New Size(102, 20)
+        txtOpenID.Size = New Size(144, 26)
         txtOpenID.TabIndex = 398
         txtOpenID.TextAlign = HorizontalAlignment.Right
         txtOpenID.Visible = False
@@ -141,10 +141,10 @@ Partial Class frmBackOffice
         ' lblSet
         ' 
         lblSet.AutoSize = True
-        lblSet.Location = New Point(273, 166)
-        lblSet.Margin = New Padding(4, 0, 4, 0)
+        lblSet.Location = New Point(390, 277)
+        lblSet.Margin = New Padding(6, 0, 6, 0)
         lblSet.Name = "lblSet"
-        lblSet.Size = New Size(41, 15)
+        lblSet.Size = New Size(63, 25)
         lblSet.TabIndex = 399
         lblSet.Text = "Label2"
         lblSet.Visible = False
@@ -153,12 +153,13 @@ Partial Class frmBackOffice
         ' 
         BackOfficeMenuStrip.BackColor = Color.Purple
         BackOfficeMenuStrip.Font = New Font("Segoe UI", 9F)
+        BackOfficeMenuStrip.ImageScalingSize = New Size(24, 24)
         BackOfficeMenuStrip.Items.AddRange(New ToolStripItem() {SalesToolStripMenuItem, InventoryToolStripMenuItem, AddLevelToolStripMenuItem, ManufacturingToolStripMenuItem, SupplierToolStripMenuItem, AddVenueToolStripMenuItem, ExpensesToolStripMenuItem, ToolsToolStripMenuItem, MaintenanceToolStripMenuItem, HelpToolStripMenuItem, LogoutToolStripMenuItem})
         BackOfficeMenuStrip.Location = New Point(0, 0)
         BackOfficeMenuStrip.Name = "BackOfficeMenuStrip"
-        BackOfficeMenuStrip.Padding = New Padding(7, 2, 0, 2)
+        BackOfficeMenuStrip.Padding = New Padding(10, 3, 0, 3)
         BackOfficeMenuStrip.RenderMode = ToolStripRenderMode.Professional
-        BackOfficeMenuStrip.Size = New Size(1370, 27)
+        BackOfficeMenuStrip.Size = New Size(1924, 40)
         BackOfficeMenuStrip.TabIndex = 400
         BackOfficeMenuStrip.Text = "MenuStrip"
         ' 
@@ -169,7 +170,7 @@ Partial Class frmBackOffice
         SalesToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         SalesToolStripMenuItem.ForeColor = Color.White
         SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
-        SalesToolStripMenuItem.Size = New Size(182, 23)
+        SalesToolStripMenuItem.Size = New Size(277, 34)
         SalesToolStripMenuItem.Text = "TimeTable Data Processing"
         ' 
         ' InventoryToolStripMenuItem
@@ -178,7 +179,7 @@ Partial Class frmBackOffice
         InventoryToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         InventoryToolStripMenuItem.ForeColor = Color.White
         InventoryToolStripMenuItem.Name = "InventoryToolStripMenuItem"
-        InventoryToolStripMenuItem.Size = New Size(93, 23)
+        InventoryToolStripMenuItem.Size = New Size(137, 34)
         InventoryToolStripMenuItem.Text = "Add Faculty"
         ' 
         ' AddLevelToolStripMenuItem
@@ -186,7 +187,7 @@ Partial Class frmBackOffice
         AddLevelToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         AddLevelToolStripMenuItem.ForeColor = Color.White
         AddLevelToolStripMenuItem.Name = "AddLevelToolStripMenuItem"
-        AddLevelToolStripMenuItem.Size = New Size(81, 23)
+        AddLevelToolStripMenuItem.Size = New Size(120, 34)
         AddLevelToolStripMenuItem.Text = "Add Level"
         ' 
         ' ManufacturingToolStripMenuItem
@@ -195,7 +196,7 @@ Partial Class frmBackOffice
         ManufacturingToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         ManufacturingToolStripMenuItem.ForeColor = Color.White
         ManufacturingToolStripMenuItem.Name = "ManufacturingToolStripMenuItem"
-        ManufacturingToolStripMenuItem.Size = New Size(124, 23)
+        ManufacturingToolStripMenuItem.Size = New Size(184, 34)
         ManufacturingToolStripMenuItem.Text = "Add Department"
         ' 
         ' SupplierToolStripMenuItem
@@ -204,7 +205,7 @@ Partial Class frmBackOffice
         SupplierToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         SupplierToolStripMenuItem.ForeColor = Color.White
         SupplierToolStripMenuItem.Name = "SupplierToolStripMenuItem"
-        SupplierToolStripMenuItem.Size = New Size(93, 23)
+        SupplierToolStripMenuItem.Size = New Size(137, 34)
         SupplierToolStripMenuItem.Text = "Add Course"
         ' 
         ' AddVenueToolStripMenuItem
@@ -212,7 +213,7 @@ Partial Class frmBackOffice
         AddVenueToolStripMenuItem.Font = New Font("Segoe UI", 10F)
         AddVenueToolStripMenuItem.ForeColor = Color.White
         AddVenueToolStripMenuItem.Name = "AddVenueToolStripMenuItem"
-        AddVenueToolStripMenuItem.Size = New Size(88, 23)
+        AddVenueToolStripMenuItem.Size = New Size(123, 34)
         AddVenueToolStripMenuItem.Text = "Add Venue"
         ' 
         ' ExpensesToolStripMenuItem
@@ -221,7 +222,7 @@ Partial Class frmBackOffice
         ExpensesToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         ExpensesToolStripMenuItem.ForeColor = Color.White
         ExpensesToolStripMenuItem.Name = "ExpensesToolStripMenuItem"
-        ExpensesToolStripMenuItem.Size = New Size(69, 23)
+        ExpensesToolStripMenuItem.Size = New Size(104, 34)
         ExpensesToolStripMenuItem.Text = "Allocate"
         ' 
         ' ToolsToolStripMenuItem
@@ -231,7 +232,7 @@ Partial Class frmBackOffice
         ToolsToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         ToolsToolStripMenuItem.ForeColor = Color.White
         ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        ToolsToolStripMenuItem.Size = New Size(52, 23)
+        ToolsToolStripMenuItem.Size = New Size(76, 34)
         ToolsToolStripMenuItem.Text = "Tools"
         ' 
         ' NotepadToolStripMenuItem
@@ -241,7 +242,7 @@ Partial Class frmBackOffice
         NotepadToolStripMenuItem.Image = My.Resources.Resources.notepad
         NotepadToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         NotepadToolStripMenuItem.Name = "NotepadToolStripMenuItem"
-        NotepadToolStripMenuItem.Size = New Size(172, 28)
+        NotepadToolStripMenuItem.Size = New Size(250, 38)
         NotepadToolStripMenuItem.Text = "Notepad"
         ' 
         ' CalculatorToolStripMenuItem
@@ -251,7 +252,7 @@ Partial Class frmBackOffice
         CalculatorToolStripMenuItem.Image = My.Resources.Resources.calculator
         CalculatorToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         CalculatorToolStripMenuItem.Name = "CalculatorToolStripMenuItem"
-        CalculatorToolStripMenuItem.Size = New Size(172, 28)
+        CalculatorToolStripMenuItem.Size = New Size(250, 38)
         CalculatorToolStripMenuItem.Text = "Calculator"
         ' 
         ' WordpadToolStripMenuItem
@@ -260,7 +261,7 @@ Partial Class frmBackOffice
         WordpadToolStripMenuItem.ForeColor = Color.White
         WordpadToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         WordpadToolStripMenuItem.Name = "WordpadToolStripMenuItem"
-        WordpadToolStripMenuItem.Size = New Size(172, 28)
+        WordpadToolStripMenuItem.Size = New Size(250, 38)
         WordpadToolStripMenuItem.Text = "Wordpad"
         ' 
         ' MSWordToolStripMenuItem
@@ -270,7 +271,7 @@ Partial Class frmBackOffice
         MSWordToolStripMenuItem.Image = My.Resources.Resources.ms_word
         MSWordToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         MSWordToolStripMenuItem.Name = "MSWordToolStripMenuItem"
-        MSWordToolStripMenuItem.Size = New Size(172, 28)
+        MSWordToolStripMenuItem.Size = New Size(250, 38)
         MSWordToolStripMenuItem.Text = "MS Word"
         ' 
         ' MSPaintToolStripMenuItem
@@ -280,7 +281,7 @@ Partial Class frmBackOffice
         MSPaintToolStripMenuItem.Image = My.Resources.Resources.ms_paint
         MSPaintToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         MSPaintToolStripMenuItem.Name = "MSPaintToolStripMenuItem"
-        MSPaintToolStripMenuItem.Size = New Size(172, 28)
+        MSPaintToolStripMenuItem.Size = New Size(250, 38)
         MSPaintToolStripMenuItem.Text = "MS Paint"
         ' 
         ' TaskManagerToolStripMenuItem
@@ -290,7 +291,7 @@ Partial Class frmBackOffice
         TaskManagerToolStripMenuItem.Image = My.Resources.Resources.taskmanager
         TaskManagerToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         TaskManagerToolStripMenuItem.Name = "TaskManagerToolStripMenuItem"
-        TaskManagerToolStripMenuItem.Size = New Size(172, 28)
+        TaskManagerToolStripMenuItem.Size = New Size(250, 38)
         TaskManagerToolStripMenuItem.Text = "Task Manager"
         ' 
         ' DashbaordToolStripMenuItem
@@ -299,7 +300,7 @@ Partial Class frmBackOffice
         DashbaordToolStripMenuItem.ForeColor = Color.White
         DashbaordToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         DashbaordToolStripMenuItem.Name = "DashbaordToolStripMenuItem"
-        DashbaordToolStripMenuItem.Size = New Size(172, 28)
+        DashbaordToolStripMenuItem.Size = New Size(250, 38)
         DashbaordToolStripMenuItem.Text = "Dashbaord"
         ' 
         ' ChequeWriterToolStripMenuItem
@@ -309,7 +310,7 @@ Partial Class frmBackOffice
         ChequeWriterToolStripMenuItem.Image = My.Resources.Resources.cheque
         ChequeWriterToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         ChequeWriterToolStripMenuItem.Name = "ChequeWriterToolStripMenuItem"
-        ChequeWriterToolStripMenuItem.Size = New Size(172, 28)
+        ChequeWriterToolStripMenuItem.Size = New Size(250, 38)
         ChequeWriterToolStripMenuItem.Text = "Cheque Writer"
         ' 
         ' VATCalculatorToolStripMenuItem
@@ -319,7 +320,7 @@ Partial Class frmBackOffice
         VATCalculatorToolStripMenuItem.Image = My.Resources.Resources.vat_calculator
         VATCalculatorToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         VATCalculatorToolStripMenuItem.Name = "VATCalculatorToolStripMenuItem"
-        VATCalculatorToolStripMenuItem.Size = New Size(172, 28)
+        VATCalculatorToolStripMenuItem.Size = New Size(250, 38)
         VATCalculatorToolStripMenuItem.Text = "VAT Calculator"
         ' 
         ' SendSMSToolStripMenuItem
@@ -330,7 +331,7 @@ Partial Class frmBackOffice
         SendSMSToolStripMenuItem.Image = My.Resources.Resources.send_sms
         SendSMSToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         SendSMSToolStripMenuItem.Name = "SendSMSToolStripMenuItem"
-        SendSMSToolStripMenuItem.Size = New Size(172, 28)
+        SendSMSToolStripMenuItem.Size = New Size(250, 38)
         SendSMSToolStripMenuItem.Text = "Send SMS"
         ' 
         ' CreditCustomersToolStripMenuItem
@@ -339,7 +340,7 @@ Partial Class frmBackOffice
         CreditCustomersToolStripMenuItem.ForeColor = Color.White
         CreditCustomersToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         CreditCustomersToolStripMenuItem.Name = "CreditCustomersToolStripMenuItem"
-        CreditCustomersToolStripMenuItem.Size = New Size(200, 28)
+        CreditCustomersToolStripMenuItem.Size = New Size(291, 38)
         CreditCustomersToolStripMenuItem.Text = "Credit Customers"
         ' 
         ' GeneralCustomersToolStripMenuItem
@@ -349,7 +350,7 @@ Partial Class frmBackOffice
         GeneralCustomersToolStripMenuItem.Image = My.Resources.Resources.generalSMS
         GeneralCustomersToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         GeneralCustomersToolStripMenuItem.Name = "GeneralCustomersToolStripMenuItem"
-        GeneralCustomersToolStripMenuItem.Size = New Size(200, 28)
+        GeneralCustomersToolStripMenuItem.Size = New Size(291, 38)
         GeneralCustomersToolStripMenuItem.Text = "General Customers"
         ' 
         ' MaintenanceToolStripMenuItem
@@ -359,7 +360,7 @@ Partial Class frmBackOffice
         MaintenanceToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         MaintenanceToolStripMenuItem.ForeColor = Color.White
         MaintenanceToolStripMenuItem.Name = "MaintenanceToolStripMenuItem"
-        MaintenanceToolStripMenuItem.Size = New Size(100, 23)
+        MaintenanceToolStripMenuItem.Size = New Size(150, 34)
         MaintenanceToolStripMenuItem.Text = "Maintenance"
         ' 
         ' LogsToolStripMenuItem
@@ -369,7 +370,7 @@ Partial Class frmBackOffice
         LogsToolStripMenuItem.Image = My.Resources.Resources.logs
         LogsToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         LogsToolStripMenuItem.Name = "LogsToolStripMenuItem"
-        LogsToolStripMenuItem.Size = New Size(206, 38)
+        LogsToolStripMenuItem.Size = New Size(294, 42)
         LogsToolStripMenuItem.Text = "Logs"
         ' 
         ' CompanyInfoToolStripMenuItem
@@ -378,7 +379,7 @@ Partial Class frmBackOffice
         CompanyInfoToolStripMenuItem.ForeColor = Color.White
         CompanyInfoToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         CompanyInfoToolStripMenuItem.Name = "CompanyInfoToolStripMenuItem"
-        CompanyInfoToolStripMenuItem.Size = New Size(206, 38)
+        CompanyInfoToolStripMenuItem.Size = New Size(294, 42)
         CompanyInfoToolStripMenuItem.Text = "Company Info"
         ' 
         ' SMSToolStripMenuItem
@@ -388,7 +389,7 @@ Partial Class frmBackOffice
         SMSToolStripMenuItem.Image = My.Resources.Resources.send_sms
         SMSToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         SMSToolStripMenuItem.Name = "SMSToolStripMenuItem"
-        SMSToolStripMenuItem.Size = New Size(206, 38)
+        SMSToolStripMenuItem.Size = New Size(294, 42)
         SMSToolStripMenuItem.Text = "SMS Settings"
         ' 
         ' EmailToolStripMenuItem
@@ -398,13 +399,13 @@ Partial Class frmBackOffice
         EmailToolStripMenuItem.Image = My.Resources.Resources.email
         EmailToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         EmailToolStripMenuItem.Name = "EmailToolStripMenuItem"
-        EmailToolStripMenuItem.Size = New Size(206, 38)
+        EmailToolStripMenuItem.Size = New Size(294, 42)
         EmailToolStripMenuItem.Text = "Email Settings"
         ' 
         ' maintemanceSep1
         ' 
         maintemanceSep1.Name = "maintemanceSep1"
-        maintemanceSep1.Size = New Size(203, 6)
+        maintemanceSep1.Size = New Size(291, 6)
         ' 
         ' DBBackupToolStripMenuItem
         ' 
@@ -413,7 +414,7 @@ Partial Class frmBackOffice
         DBBackupToolStripMenuItem.Image = My.Resources.Resources.database_backup
         DBBackupToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         DBBackupToolStripMenuItem.Name = "DBBackupToolStripMenuItem"
-        DBBackupToolStripMenuItem.Size = New Size(206, 38)
+        DBBackupToolStripMenuItem.Size = New Size(294, 42)
         DBBackupToolStripMenuItem.Text = "DB Backup"
         ' 
         ' DBRestoreToolStripMenuItem
@@ -423,7 +424,7 @@ Partial Class frmBackOffice
         DBRestoreToolStripMenuItem.Image = My.Resources.Resources.database_restore
         DBRestoreToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         DBRestoreToolStripMenuItem.Name = "DBRestoreToolStripMenuItem"
-        DBRestoreToolStripMenuItem.Size = New Size(206, 38)
+        DBRestoreToolStripMenuItem.Size = New Size(294, 42)
         DBRestoreToolStripMenuItem.Text = "DB Restore"
         ' 
         ' ResetDatabaseToolStripMenuItem
@@ -433,13 +434,13 @@ Partial Class frmBackOffice
         ResetDatabaseToolStripMenuItem.Image = My.Resources.Resources.database_reset
         ResetDatabaseToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         ResetDatabaseToolStripMenuItem.Name = "ResetDatabaseToolStripMenuItem"
-        ResetDatabaseToolStripMenuItem.Size = New Size(206, 38)
+        ResetDatabaseToolStripMenuItem.Size = New Size(294, 42)
         ResetDatabaseToolStripMenuItem.Text = "Reset Database"
         ' 
         ' maintenanceSep2
         ' 
         maintenanceSep2.Name = "maintenanceSep2"
-        maintenanceSep2.Size = New Size(203, 6)
+        maintenanceSep2.Size = New Size(291, 6)
         ' 
         ' TerminalSettingToolStripMenuItem
         ' 
@@ -448,13 +449,13 @@ Partial Class frmBackOffice
         TerminalSettingToolStripMenuItem.Image = My.Resources.Resources.terminal_settings
         TerminalSettingToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         TerminalSettingToolStripMenuItem.Name = "TerminalSettingToolStripMenuItem"
-        TerminalSettingToolStripMenuItem.Size = New Size(206, 38)
+        TerminalSettingToolStripMenuItem.Size = New Size(294, 42)
         TerminalSettingToolStripMenuItem.Text = "Hardware Setting"
         ' 
         ' maintenanceSep3
         ' 
         maintenanceSep3.Name = "maintenanceSep3"
-        maintenanceSep3.Size = New Size(203, 6)
+        maintenanceSep3.Size = New Size(291, 6)
         ' 
         ' RegistrationToolStripMenuItem
         ' 
@@ -462,7 +463,7 @@ Partial Class frmBackOffice
         RegistrationToolStripMenuItem.ForeColor = Color.White
         RegistrationToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         RegistrationToolStripMenuItem.Name = "RegistrationToolStripMenuItem"
-        RegistrationToolStripMenuItem.Size = New Size(206, 38)
+        RegistrationToolStripMenuItem.Size = New Size(294, 42)
         RegistrationToolStripMenuItem.Text = "Users"
         ' 
         ' AdvancedSettingsToolStripMenuItem
@@ -470,7 +471,7 @@ Partial Class frmBackOffice
         AdvancedSettingsToolStripMenuItem.BackColor = Color.Purple
         AdvancedSettingsToolStripMenuItem.ForeColor = Color.White
         AdvancedSettingsToolStripMenuItem.Name = "AdvancedSettingsToolStripMenuItem"
-        AdvancedSettingsToolStripMenuItem.Size = New Size(206, 38)
+        AdvancedSettingsToolStripMenuItem.Size = New Size(294, 42)
         AdvancedSettingsToolStripMenuItem.Text = "Advanced settings"
         ' 
         ' SecurityOprtionToolStripMenuItem
@@ -478,7 +479,7 @@ Partial Class frmBackOffice
         SecurityOprtionToolStripMenuItem.BackColor = Color.FromArgb(CByte(192), CByte(0), CByte(192))
         SecurityOprtionToolStripMenuItem.ForeColor = Color.White
         SecurityOprtionToolStripMenuItem.Name = "SecurityOprtionToolStripMenuItem"
-        SecurityOprtionToolStripMenuItem.Size = New Size(206, 38)
+        SecurityOprtionToolStripMenuItem.Size = New Size(294, 42)
         SecurityOprtionToolStripMenuItem.Text = "SecurityOption"
         ' 
         ' HelpToolStripMenuItem
@@ -488,7 +489,7 @@ Partial Class frmBackOffice
         HelpToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         HelpToolStripMenuItem.ForeColor = Color.White
         HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        HelpToolStripMenuItem.Size = New Size(49, 23)
+        HelpToolStripMenuItem.Size = New Size(72, 34)
         HelpToolStripMenuItem.Text = "Help"
         ' 
         ' AboutUsToolStripMenuItem
@@ -498,7 +499,7 @@ Partial Class frmBackOffice
         AboutUsToolStripMenuItem.Image = My.Resources.Resources.about
         AboutUsToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None
         AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
-        AboutUsToolStripMenuItem.Size = New Size(170, 56)
+        AboutUsToolStripMenuItem.Size = New Size(228, 60)
         AboutUsToolStripMenuItem.Text = "About Us"
         ' 
         ' LogoutToolStripMenuItem
@@ -508,7 +509,7 @@ Partial Class frmBackOffice
         LogoutToolStripMenuItem.Font = New Font("Segoe UI", 10.5F)
         LogoutToolStripMenuItem.ForeColor = Color.White
         LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        LogoutToolStripMenuItem.Size = New Size(65, 23)
+        LogoutToolStripMenuItem.Size = New Size(94, 34)
         LogoutToolStripMenuItem.Text = "Logout"
         ' 
         ' LogoutToolStripMenuItem1
@@ -518,18 +519,19 @@ Partial Class frmBackOffice
         LogoutToolStripMenuItem1.Image = My.Resources.Resources.logout
         LogoutToolStripMenuItem1.ImageScaling = ToolStripItemImageScaling.None
         LogoutToolStripMenuItem1.Name = "LogoutToolStripMenuItem1"
-        LogoutToolStripMenuItem1.Size = New Size(156, 56)
+        LogoutToolStripMenuItem1.Size = New Size(207, 60)
         LogoutToolStripMenuItem1.Text = "Logout"
         ' 
         ' frmBackOffice
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         AutoScroll = True
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackColor = Color.White
+        BackgroundImage = My.Resources.Resources.Kopia_LI_FB_post_22
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1370, 749)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(lblSet)
         Controls.Add(txtOpenID)
         Controls.Add(StatusStrip1)
@@ -537,7 +539,7 @@ Partial Class frmBackOffice
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         KeyPreview = True
         MainMenuStrip = BackOfficeMenuStrip
-        Margin = New Padding(4, 3, 4, 3)
+        Margin = New Padding(6, 5, 6, 5)
         MaximizeBox = False
         Name = "frmBackOffice"
         StartPosition = FormStartPosition.CenterScreen

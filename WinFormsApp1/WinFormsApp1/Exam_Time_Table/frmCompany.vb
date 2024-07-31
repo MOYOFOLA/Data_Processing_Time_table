@@ -663,10 +663,7 @@ LicenseNo=@d13, CST=@d14,PAN=@d15,ServiceTaxNo=@d16,Currency=@d17, CurrencyCode=
             Return
         End If
 
-        Dim revmax As New Revmaxlib()
-        Dim revresponse As String = revmax.SetLicense(txtRevMaxKey.Text.Trim())
-        Dim revMsg As LicenseRoot = JsonConvert.DeserializeObject(Of LicenseRoot)(revresponse)
-        MessageBox.Show(revMsg.Message)
+
     End Sub
 
     Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter

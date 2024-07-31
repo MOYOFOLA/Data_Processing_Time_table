@@ -45,11 +45,11 @@ Partial Class frm_Venue
         ' txtvenuecapacity
         ' 
         txtvenuecapacity.BackColor = Color.White
-        txtvenuecapacity.Font = New Font("Microsoft Sans Serif", 10.0F)
-        txtvenuecapacity.Location = New Point(85, 52)
-        txtvenuecapacity.Margin = New Padding(4, 3, 4, 3)
+        txtvenuecapacity.Font = New Font("Microsoft Sans Serif", 10F)
+        txtvenuecapacity.Location = New Point(121, 87)
+        txtvenuecapacity.Margin = New Padding(6, 5, 6, 5)
         txtvenuecapacity.Name = "txtvenuecapacity"
-        txtvenuecapacity.Size = New Size(467, 23)
+        txtvenuecapacity.Size = New Size(665, 30)
         txtvenuecapacity.TabIndex = 20
         ' 
         ' Label1
@@ -58,21 +58,21 @@ Partial Class frm_Venue
         Label1.BackColor = Color.White
         Label1.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.SteelBlue
-        Label1.Location = New Point(13, 23)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(19, 38)
+        Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(51, 17)
+        Label1.Size = New Size(77, 28)
         Label1.TabIndex = 22
         Label1.Text = "Name :"
         ' 
         ' txtvenuename
         ' 
         txtvenuename.BackColor = Color.White
-        txtvenuename.Font = New Font("Microsoft Sans Serif", 10.0F)
-        txtvenuename.Location = New Point(85, 23)
-        txtvenuename.Margin = New Padding(4, 3, 4, 3)
+        txtvenuename.Font = New Font("Microsoft Sans Serif", 10F)
+        txtvenuename.Location = New Point(121, 38)
+        txtvenuename.Margin = New Padding(6, 5, 6, 5)
         txtvenuename.Name = "txtvenuename"
-        txtvenuename.Size = New Size(467, 23)
+        txtvenuename.Size = New Size(665, 30)
         txtvenuename.TabIndex = 19
         ' 
         ' Label8
@@ -81,10 +81,10 @@ Partial Class frm_Venue
         Label8.BackColor = Color.White
         Label8.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.SteelBlue
-        Label8.Location = New Point(13, 58)
-        Label8.Margin = New Padding(4, 0, 4, 0)
+        Label8.Location = New Point(19, 97)
+        Label8.Margin = New Padding(6, 0, 6, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(59, 17)
+        Label8.Size = New Size(87, 28)
         Label8.TabIndex = 21
         Label8.Text = "Capacity"
         ' 
@@ -100,10 +100,10 @@ Partial Class frm_Venue
         btnDelete.GradientTop = Color.DarkMagenta
         btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), Image)
         btnDelete.ImageAlign = ContentAlignment.MiddleLeft
-        btnDelete.Location = New Point(408, 94)
-        btnDelete.Margin = New Padding(4, 3, 4, 3)
+        btnDelete.Location = New Point(583, 157)
+        btnDelete.Margin = New Padding(6, 5, 6, 5)
         btnDelete.Name = "btnDelete"
-        btnDelete.Size = New Size(104, 38)
+        btnDelete.Size = New Size(149, 63)
         btnDelete.TabIndex = 404
         btnDelete.Text = "Delete"
         btnDelete.TextAlign = ContentAlignment.MiddleRight
@@ -121,10 +121,10 @@ Partial Class frm_Venue
         btnUpdate.GradientTop = Color.DarkMagenta
         btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), Image)
         btnUpdate.ImageAlign = ContentAlignment.MiddleLeft
-        btnUpdate.Location = New Point(296, 95)
-        btnUpdate.Margin = New Padding(4, 3, 4, 3)
+        btnUpdate.Location = New Point(423, 158)
+        btnUpdate.Margin = New Padding(6, 5, 6, 5)
         btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(104, 38)
+        btnUpdate.Size = New Size(149, 63)
         btnUpdate.TabIndex = 403
         btnUpdate.Text = "Update"
         btnUpdate.TextAlign = ContentAlignment.MiddleRight
@@ -141,10 +141,10 @@ Partial Class frm_Venue
         btnSave.GradientTop = Color.DarkMagenta
         btnSave.Image = CType(resources.GetObject("btnSave.Image"), Image)
         btnSave.ImageAlign = ContentAlignment.MiddleLeft
-        btnSave.Location = New Point(184, 94)
-        btnSave.Margin = New Padding(4, 3, 4, 3)
+        btnSave.Location = New Point(263, 157)
+        btnSave.Margin = New Padding(6, 5, 6, 5)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(104, 38)
+        btnSave.Size = New Size(149, 63)
         btnSave.TabIndex = 402
         btnSave.Text = "Save"
         btnSave.TextAlign = ContentAlignment.MiddleRight
@@ -174,8 +174,8 @@ Partial Class frm_Venue
         dgw.Dock = DockStyle.Bottom
         dgw.EnableHeadersVisualStyles = False
         dgw.GridColor = Color.White
-        dgw.Location = New Point(0, 139)
-        dgw.Margin = New Padding(4, 3, 4, 3)
+        dgw.Location = New Point(0, 232)
+        dgw.Margin = New Padding(6, 5, 6, 5)
         dgw.MultiSelect = False
         dgw.Name = "dgw"
         dgw.ReadOnly = True
@@ -191,7 +191,7 @@ Partial Class frm_Venue
         dgw.RowHeadersWidth = 25
         dgw.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing
         DataGridViewCellStyle4.BackColor = Color.White
-        DataGridViewCellStyle4.Font = New Font("Tahoma", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle4.Font = New Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         DataGridViewCellStyle4.SelectionBackColor = Color.Moccasin
         DataGridViewCellStyle4.SelectionForeColor = Color.Black
         dgw.RowsDefaultCellStyle = DataGridViewCellStyle4
@@ -199,18 +199,20 @@ Partial Class frm_Venue
         dgw.RowTemplate.Resizable = DataGridViewTriState.False
         dgw.ScrollBars = ScrollBars.Vertical
         dgw.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgw.Size = New Size(589, 170)
+        dgw.Size = New Size(841, 283)
         dgw.TabIndex = 408
         ' 
         ' Column1
         ' 
         Column1.HeaderText = "SN/NO"
+        Column1.MinimumWidth = 8
         Column1.Name = "Column1"
         Column1.ReadOnly = True
         ' 
         ' Column2
         ' 
         Column2.HeaderText = "id"
+        Column2.MinimumWidth = 8
         Column2.Name = "Column2"
         Column2.ReadOnly = True
         Column2.Visible = False
@@ -218,21 +220,23 @@ Partial Class frm_Venue
         ' Column3
         ' 
         Column3.HeaderText = "Capacity"
+        Column3.MinimumWidth = 8
         Column3.Name = "Column3"
         Column3.ReadOnly = True
         ' 
         ' Column4
         ' 
         Column4.HeaderText = "Venue name"
+        Column4.MinimumWidth = 8
         Column4.Name = "Column4"
         Column4.ReadOnly = True
         ' 
         ' frm_Venue
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(589, 309)
+        ClientSize = New Size(841, 515)
         Controls.Add(dgw)
         Controls.Add(btnDelete)
         Controls.Add(btnUpdate)
@@ -241,6 +245,8 @@ Partial Class frm_Venue
         Controls.Add(Label1)
         Controls.Add(txtvenuename)
         Controls.Add(Label8)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "frm_Venue"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frm_Venue"

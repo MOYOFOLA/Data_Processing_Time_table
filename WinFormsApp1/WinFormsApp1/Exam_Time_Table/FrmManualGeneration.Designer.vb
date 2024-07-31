@@ -26,6 +26,7 @@ Partial Class FrmManualGeneration
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmManualGeneration))
         dgwManual = New DataGridView()
         btnSave = New Button()
         CType(dgwManual, ComponentModel.ISupportInitialize).BeginInit()
@@ -55,8 +56,8 @@ Partial Class FrmManualGeneration
         dgwManual.Cursor = Cursors.Hand
         dgwManual.EnableHeadersVisualStyles = False
         dgwManual.GridColor = Color.White
-        dgwManual.Location = New Point(14, 14)
-        dgwManual.Margin = New Padding(4, 3, 4, 3)
+        dgwManual.Location = New Point(20, 23)
+        dgwManual.Margin = New Padding(6, 5, 6, 5)
         dgwManual.MultiSelect = False
         dgwManual.Name = "dgwManual"
         dgwManual.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single
@@ -79,28 +80,29 @@ Partial Class FrmManualGeneration
         dgwManual.RowTemplate.Resizable = DataGridViewTriState.False
         dgwManual.ScrollBars = ScrollBars.Vertical
         dgwManual.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgwManual.Size = New Size(1174, 647)
+        dgwManual.Size = New Size(1677, 932)
         dgwManual.TabIndex = 408
         ' 
         ' btnSave
         ' 
-        btnSave.Location = New Point(14, 669)
-        btnSave.Margin = New Padding(4, 3, 4, 3)
+        btnSave.Location = New Point(20, 1115)
+        btnSave.Margin = New Padding(6, 5, 6, 5)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(117, 35)
+        btnSave.Size = New Size(167, 58)
         btnSave.TabIndex = 409
         btnSave.Text = "Save"
         btnSave.UseVisualStyleBackColor = True
         ' 
         ' FrmManualGeneration
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(1202, 718)
+        ClientSize = New Size(1717, 1050)
         Controls.Add(btnSave)
         Controls.Add(dgwManual)
-        Margin = New Padding(4, 3, 4, 3)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(6, 5, 6, 5)
         Name = "FrmManualGeneration"
         StartPosition = FormStartPosition.CenterScreen
         Text = "FrmManualGeneration"

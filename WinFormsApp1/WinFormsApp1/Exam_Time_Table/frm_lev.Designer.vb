@@ -55,11 +55,11 @@ Partial Class frm_lev
         GroupBox2.Controls.Add(Label8)
         GroupBox2.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         GroupBox2.ForeColor = Color.SteelBlue
-        GroupBox2.Location = New Point(14, 12)
-        GroupBox2.Margin = New Padding(4, 3, 4, 3)
+        GroupBox2.Location = New Point(20, 20)
+        GroupBox2.Margin = New Padding(6, 5, 6, 5)
         GroupBox2.Name = "GroupBox2"
-        GroupBox2.Padding = New Padding(4, 3, 4, 3)
-        GroupBox2.Size = New Size(617, 110)
+        GroupBox2.Padding = New Padding(6, 5, 6, 5)
+        GroupBox2.Size = New Size(881, 183)
         GroupBox2.TabIndex = 395
         GroupBox2.TabStop = False
         GroupBox2.Text = "Add Level"
@@ -68,10 +68,10 @@ Partial Class frm_lev
         ' 
         txtBatchName.BackColor = Color.White
         txtBatchName.Font = New Font("Microsoft Sans Serif", 10F)
-        txtBatchName.Location = New Point(132, 67)
-        txtBatchName.Margin = New Padding(4, 3, 4, 3)
+        txtBatchName.Location = New Point(189, 112)
+        txtBatchName.Margin = New Padding(6, 5, 6, 5)
         txtBatchName.Name = "txtBatchName"
-        txtBatchName.Size = New Size(467, 23)
+        txtBatchName.Size = New Size(665, 30)
         txtBatchName.TabIndex = 1
         ' 
         ' Label1
@@ -80,10 +80,10 @@ Partial Class frm_lev
         Label1.BackColor = Color.White
         Label1.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.SteelBlue
-        Label1.Location = New Point(7, 69)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(10, 115)
+        Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(51, 17)
+        Label1.Size = New Size(77, 28)
         Label1.TabIndex = 18
         Label1.Text = "Name :"
         ' 
@@ -91,10 +91,10 @@ Partial Class frm_lev
         ' 
         txtCode.BackColor = Color.White
         txtCode.Font = New Font("Microsoft Sans Serif", 10F)
-        txtCode.Location = New Point(132, 31)
-        txtCode.Margin = New Padding(4, 3, 4, 3)
+        txtCode.Location = New Point(189, 52)
+        txtCode.Margin = New Padding(6, 5, 6, 5)
         txtCode.Name = "txtCode"
-        txtCode.Size = New Size(467, 23)
+        txtCode.Size = New Size(665, 30)
         txtCode.TabIndex = 0
         ' 
         ' Label8
@@ -103,10 +103,10 @@ Partial Class frm_lev
         Label8.BackColor = Color.White
         Label8.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = Color.SteelBlue
-        Label8.Location = New Point(12, 31)
-        Label8.Margin = New Padding(4, 0, 4, 0)
+        Label8.Location = New Point(17, 52)
+        Label8.Margin = New Padding(6, 0, 6, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(46, 17)
+        Label8.Size = New Size(70, 28)
         Label8.TabIndex = 16
         Label8.Text = "Code :"
         ' 
@@ -117,10 +117,10 @@ Partial Class frm_lev
         Panel3.Controls.Add(btnDelete)
         Panel3.Controls.Add(btnUpdate)
         Panel3.Controls.Add(btnSave)
-        Panel3.Location = New Point(14, 254)
-        Panel3.Margin = New Padding(4, 3, 4, 3)
+        Panel3.Location = New Point(20, 423)
+        Panel3.Margin = New Padding(6, 5, 6, 5)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(610, 65)
+        Panel3.Size = New Size(871, 107)
         Panel3.TabIndex = 396
         ' 
         ' btnDelete
@@ -135,10 +135,10 @@ Partial Class frm_lev
         btnDelete.GradientTop = Color.DarkMagenta
         btnDelete.Image = CType(resources.GetObject("btnDelete.Image"), Image)
         btnDelete.ImageAlign = ContentAlignment.MiddleLeft
-        btnDelete.Location = New Point(231, 16)
-        btnDelete.Margin = New Padding(4, 3, 4, 3)
+        btnDelete.Location = New Point(330, 27)
+        btnDelete.Margin = New Padding(6, 5, 6, 5)
         btnDelete.Name = "btnDelete"
-        btnDelete.Size = New Size(104, 38)
+        btnDelete.Size = New Size(149, 63)
         btnDelete.TabIndex = 8
         btnDelete.Text = "Delete"
         btnDelete.TextAlign = ContentAlignment.MiddleRight
@@ -156,10 +156,10 @@ Partial Class frm_lev
         btnUpdate.GradientTop = Color.DarkMagenta
         btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), Image)
         btnUpdate.ImageAlign = ContentAlignment.MiddleLeft
-        btnUpdate.Location = New Point(120, 15)
-        btnUpdate.Margin = New Padding(4, 3, 4, 3)
+        btnUpdate.Location = New Point(171, 25)
+        btnUpdate.Margin = New Padding(6, 5, 6, 5)
         btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(104, 38)
+        btnUpdate.Size = New Size(149, 63)
         btnUpdate.TabIndex = 7
         btnUpdate.Text = "Update"
         btnUpdate.TextAlign = ContentAlignment.MiddleRight
@@ -176,10 +176,10 @@ Partial Class frm_lev
         btnSave.GradientTop = Color.DarkMagenta
         btnSave.Image = CType(resources.GetObject("btnSave.Image"), Image)
         btnSave.ImageAlign = ContentAlignment.MiddleLeft
-        btnSave.Location = New Point(12, 15)
-        btnSave.Margin = New Padding(4, 3, 4, 3)
+        btnSave.Location = New Point(17, 25)
+        btnSave.Margin = New Padding(6, 5, 6, 5)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(104, 38)
+        btnSave.Size = New Size(149, 63)
         btnSave.TabIndex = 6
         btnSave.Text = "Save"
         btnSave.TextAlign = ContentAlignment.MiddleRight
@@ -209,8 +209,8 @@ Partial Class frm_lev
         dgw.Cursor = Cursors.Hand
         dgw.EnableHeadersVisualStyles = False
         dgw.GridColor = Color.White
-        dgw.Location = New Point(14, 128)
-        dgw.Margin = New Padding(4, 3, 4, 3)
+        dgw.Location = New Point(20, 213)
+        dgw.Margin = New Padding(6, 5, 6, 5)
         dgw.MultiSelect = False
         dgw.Name = "dgw"
         dgw.ReadOnly = True
@@ -234,18 +234,20 @@ Partial Class frm_lev
         dgw.RowTemplate.Resizable = DataGridViewTriState.False
         dgw.ScrollBars = ScrollBars.Vertical
         dgw.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgw.Size = New Size(610, 127)
+        dgw.Size = New Size(871, 212)
         dgw.TabIndex = 407
         ' 
         ' Column1
         ' 
         Column1.HeaderText = "SN/NO"
+        Column1.MinimumWidth = 8
         Column1.Name = "Column1"
         Column1.ReadOnly = True
         ' 
         ' Column2
         ' 
         Column2.HeaderText = "id"
+        Column2.MinimumWidth = 8
         Column2.Name = "Column2"
         Column2.ReadOnly = True
         Column2.Visible = False
@@ -253,25 +255,28 @@ Partial Class frm_lev
         ' Column3
         ' 
         Column3.HeaderText = "Code"
+        Column3.MinimumWidth = 8
         Column3.Name = "Column3"
         Column3.ReadOnly = True
         ' 
         ' Column4
         ' 
         Column4.HeaderText = "Level"
+        Column4.MinimumWidth = 8
         Column4.Name = "Column4"
         Column4.ReadOnly = True
         ' 
         ' frm_lev
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(637, 336)
+        ClientSize = New Size(910, 560)
         Controls.Add(dgw)
         Controls.Add(Panel3)
         Controls.Add(GroupBox2)
-        Margin = New Padding(4, 3, 4, 3)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(6, 5, 6, 5)
         MaximizeBox = False
         Name = "frm_lev"
         StartPosition = FormStartPosition.CenterScreen

@@ -1523,6 +1523,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property favpng_electronic() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("favpng_electronic", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property generalSMS() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("generalSMS", resourceCulture)
@@ -1726,6 +1736,16 @@ Namespace My.Resources
         Friend ReadOnly Property Household_Room_icon() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Household-Room-icon", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Kopia_LI_FB_post_22() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Kopia-LI-FB-post-22", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -41,11 +41,11 @@ Partial Class frmSplash
         ' TextBox1
         ' 
         TextBox1.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(74, 14)
-        TextBox1.Margin = New Padding(4, 3, 4, 3)
+        TextBox1.Location = New Point(106, 23)
+        TextBox1.Margin = New Padding(6, 5, 6, 5)
         TextBox1.Name = "TextBox1"
         TextBox1.ReadOnly = True
-        TextBox1.Size = New Size(27, 22)
+        TextBox1.Size = New Size(37, 30)
         TextBox1.TabIndex = 12
         TextBox1.Visible = False
         ' 
@@ -53,21 +53,21 @@ Partial Class frmSplash
         ' 
         txtActivationID.CharacterCasing = CharacterCasing.Upper
         txtActivationID.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtActivationID.Location = New Point(0, 31)
-        txtActivationID.Margin = New Padding(4, 3, 4, 3)
+        txtActivationID.Location = New Point(0, 52)
+        txtActivationID.Margin = New Padding(6, 5, 6, 5)
         txtActivationID.Name = "txtActivationID"
-        txtActivationID.Size = New Size(27, 22)
+        txtActivationID.Size = New Size(37, 30)
         txtActivationID.TabIndex = 11
         txtActivationID.Visible = False
         ' 
         ' txtCPU_ID
         ' 
         txtCPU_ID.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtCPU_ID.Location = New Point(35, 14)
-        txtCPU_ID.Margin = New Padding(4, 3, 4, 3)
+        txtCPU_ID.Location = New Point(50, 23)
+        txtCPU_ID.Margin = New Padding(6, 5, 6, 5)
         txtCPU_ID.Name = "txtCPU_ID"
         txtCPU_ID.ReadOnly = True
-        txtCPU_ID.Size = New Size(11, 22)
+        txtCPU_ID.Size = New Size(14, 30)
         txtCPU_ID.TabIndex = 10
         txtCPU_ID.Visible = False
         ' 
@@ -76,10 +76,10 @@ Partial Class frmSplash
         ' 
         ' Panel1
         ' 
-        Panel1.Location = New Point(35, 43)
-        Panel1.Margin = New Padding(4, 3, 4, 3)
+        Panel1.Location = New Point(50, 72)
+        Panel1.Margin = New Padding(6, 5, 6, 5)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(31, 30)
+        Panel1.Size = New Size(44, 50)
         Panel1.TabIndex = 14
         Panel1.Visible = False
         ' 
@@ -88,20 +88,20 @@ Partial Class frmSplash
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(8, 339)
-        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Location = New Point(11, 565)
+        Label3.Margin = New Padding(6, 0, 6, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(168, 29)
+        Label3.Size = New Size(240, 48)
         Label3.TabIndex = 5
         Label3.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' ProgressBar1
         ' 
-        ProgressBar1.Location = New Point(55, 119)
-        ProgressBar1.Margin = New Padding(4, 3, 4, 3)
+        ProgressBar1.Location = New Point(79, 198)
+        ProgressBar1.Margin = New Padding(6, 5, 6, 5)
         ProgressBar1.Maximum = 100
         ProgressBar1.Name = "ProgressBar1"
-        ProgressBar1.Size = New Size(12, 25)
+        ProgressBar1.Size = New Size(17, 42)
         ProgressBar1.TabIndex = 15
         ProgressBar1.UseSelectable = True
         ProgressBar1.Visible = False
@@ -111,10 +111,10 @@ Partial Class frmSplash
         PictureBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox1.BackColor = Color.Transparent
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(525, 0)
-        PictureBox1.Margin = New Padding(4, 3, 4, 3)
+        PictureBox1.Location = New Point(750, 0)
+        PictureBox1.Margin = New Padding(6, 5, 6, 5)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(118, 120)
+        PictureBox1.Size = New Size(169, 200)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 24
         PictureBox1.TabStop = False
@@ -125,10 +125,10 @@ Partial Class frmSplash
         Label2.Dock = DockStyle.Bottom
         Label2.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(0, 327)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Location = New Point(0, 545)
+        Label2.Margin = New Padding(6, 0, 6, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(649, 23)
+        Label2.Size = New Size(927, 38)
         Label2.TabIndex = 26
         Label2.Text = "TIME TABLE SUPERVISION  v14 Premium Edition"
         Label2.TextAlign = ContentAlignment.MiddleCenter
@@ -137,12 +137,12 @@ Partial Class frmSplash
         ' 
         Label1.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 20.0F, FontStyle.Bold)
+        Label1.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(385, 251)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(550, 418)
+        Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(264, 76)
+        Label1.Size = New Size(377, 127)
         Label1.TabIndex = 27
         Label1.Text = "DATA PROCESSING" & vbCrLf & "SYSTEM"
         Label1.TextAlign = ContentAlignment.TopRight
@@ -150,21 +150,22 @@ Partial Class frmSplash
         ' txtMB_SerialNo
         ' 
         txtMB_SerialNo.Font = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtMB_SerialNo.Location = New Point(108, 61)
-        txtMB_SerialNo.Margin = New Padding(4, 3, 4, 3)
+        txtMB_SerialNo.Location = New Point(154, 102)
+        txtMB_SerialNo.Margin = New Padding(6, 5, 6, 5)
         txtMB_SerialNo.Name = "txtMB_SerialNo"
         txtMB_SerialNo.ReadOnly = True
-        txtMB_SerialNo.Size = New Size(11, 22)
+        txtMB_SerialNo.Size = New Size(14, 30)
         txtMB_SerialNo.TabIndex = 28
         txtMB_SerialNo.Visible = False
         ' 
         ' frmSplash
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(649, 350)
+        BackgroundImage = My.Resources.Resources.favpng_electronic
+        BackgroundImageLayout = ImageLayout.Zoom
+        ClientSize = New Size(927, 583)
         Controls.Add(txtMB_SerialNo)
         Controls.Add(Label1)
         Controls.Add(Label2)
@@ -178,7 +179,7 @@ Partial Class frmSplash
         DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(4, 3, 4, 3)
+        Margin = New Padding(6, 5, 6, 5)
         Name = "frmSplash"
         ShowIcon = False
         ShowInTaskbar = False

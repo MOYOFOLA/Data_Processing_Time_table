@@ -46,11 +46,11 @@ Partial Class Frm_TimeTable_genration_system
         GroupBox1.Controls.Add(cmbdept)
         GroupBox1.Controls.Add(Label16)
         GroupBox1.Controls.Add(cmbfac)
-        GroupBox1.Location = New Point(14, 14)
-        GroupBox1.Margin = New Padding(4, 3, 4, 3)
+        GroupBox1.Location = New Point(20, 23)
+        GroupBox1.Margin = New Padding(6, 5, 6, 5)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Padding = New Padding(4, 3, 4, 3)
-        GroupBox1.Size = New Size(594, 102)
+        GroupBox1.Padding = New Padding(6, 5, 6, 5)
+        GroupBox1.Size = New Size(849, 170)
         GroupBox1.TabIndex = 398
         GroupBox1.TabStop = False
         GroupBox1.Text = "Dept And Faculty"
@@ -59,10 +59,10 @@ Partial Class Frm_TimeTable_genration_system
         ' 
         Label17.AutoSize = True
         Label17.Font = New Font("Microsoft Sans Serif", 10F)
-        Label17.Location = New Point(7, 66)
-        Label17.Margin = New Padding(4, 0, 4, 0)
+        Label17.Location = New Point(10, 110)
+        Label17.Margin = New Padding(6, 0, 6, 0)
         Label17.Name = "Label17"
-        Label17.Size = New Size(82, 17)
+        Label17.Size = New Size(113, 25)
         Label17.TabIndex = 45
         Label17.Text = "Department"
         ' 
@@ -70,20 +70,20 @@ Partial Class Frm_TimeTable_genration_system
         ' 
         cmbdept.DropDownStyle = ComboBoxStyle.DropDownList
         cmbdept.FormattingEnabled = True
-        cmbdept.Location = New Point(130, 60)
-        cmbdept.Margin = New Padding(4, 3, 4, 3)
+        cmbdept.Location = New Point(186, 100)
+        cmbdept.Margin = New Padding(6, 5, 6, 5)
         cmbdept.Name = "cmbdept"
-        cmbdept.Size = New Size(445, 23)
+        cmbdept.Size = New Size(634, 33)
         cmbdept.TabIndex = 44
         ' 
         ' Label16
         ' 
         Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 10F)
-        Label16.Location = New Point(7, 25)
-        Label16.Margin = New Padding(4, 0, 4, 0)
+        Label16.Location = New Point(10, 42)
+        Label16.Margin = New Padding(6, 0, 6, 0)
         Label16.Name = "Label16"
-        Label16.Size = New Size(53, 17)
+        Label16.Size = New Size(75, 25)
         Label16.TabIndex = 43
         Label16.Text = "Faculty"
         ' 
@@ -91,10 +91,10 @@ Partial Class Frm_TimeTable_genration_system
         ' 
         cmbfac.DropDownStyle = ComboBoxStyle.DropDownList
         cmbfac.FormattingEnabled = True
-        cmbfac.Location = New Point(132, 25)
-        cmbfac.Margin = New Padding(4, 3, 4, 3)
+        cmbfac.Location = New Point(189, 42)
+        cmbfac.Margin = New Padding(6, 5, 6, 5)
         cmbfac.Name = "cmbfac"
-        cmbfac.Size = New Size(443, 23)
+        cmbfac.Size = New Size(631, 33)
         cmbfac.TabIndex = 42
         ' 
         ' GroupBox2
@@ -103,11 +103,11 @@ Partial Class Frm_TimeTable_genration_system
         GroupBox2.Controls.Add(cmbsem)
         GroupBox2.Controls.Add(Label2)
         GroupBox2.Controls.Add(cmbses)
-        GroupBox2.Location = New Point(14, 122)
-        GroupBox2.Margin = New Padding(4, 3, 4, 3)
+        GroupBox2.Location = New Point(20, 203)
+        GroupBox2.Margin = New Padding(6, 5, 6, 5)
         GroupBox2.Name = "GroupBox2"
-        GroupBox2.Padding = New Padding(4, 3, 4, 3)
-        GroupBox2.Size = New Size(594, 102)
+        GroupBox2.Padding = New Padding(6, 5, 6, 5)
+        GroupBox2.Size = New Size(849, 170)
         GroupBox2.TabIndex = 399
         GroupBox2.TabStop = False
         ' 
@@ -115,10 +115,10 @@ Partial Class Frm_TimeTable_genration_system
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Microsoft Sans Serif", 10F)
-        Label1.Location = New Point(7, 66)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(10, 110)
+        Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(68, 17)
+        Label1.Size = New Size(96, 25)
         Label1.TabIndex = 45
         Label1.Text = "Semester"
         ' 
@@ -127,20 +127,20 @@ Partial Class Frm_TimeTable_genration_system
         cmbsem.DropDownStyle = ComboBoxStyle.DropDownList
         cmbsem.FormattingEnabled = True
         cmbsem.Items.AddRange(New Object() {"First Semester", "Second Semester", "Third Semester"})
-        cmbsem.Location = New Point(130, 60)
-        cmbsem.Margin = New Padding(4, 3, 4, 3)
+        cmbsem.Location = New Point(186, 100)
+        cmbsem.Margin = New Padding(6, 5, 6, 5)
         cmbsem.Name = "cmbsem"
-        cmbsem.Size = New Size(445, 23)
+        cmbsem.Size = New Size(634, 33)
         cmbsem.TabIndex = 44
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Microsoft Sans Serif", 10F)
-        Label2.Location = New Point(7, 25)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Location = New Point(10, 42)
+        Label2.Margin = New Padding(6, 0, 6, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(58, 17)
+        Label2.Size = New Size(83, 25)
         Label2.TabIndex = 43
         Label2.Text = "Session"
         ' 
@@ -149,19 +149,19 @@ Partial Class Frm_TimeTable_genration_system
         cmbses.DropDownStyle = ComboBoxStyle.DropDownList
         cmbses.FormattingEnabled = True
         cmbses.Items.AddRange(New Object() {"Admin", "Cashier", "Store Manager", "Inventory Manager", "Store Keeper", "Employee", "Security Guard"})
-        cmbses.Location = New Point(132, 25)
-        cmbses.Margin = New Padding(4, 3, 4, 3)
+        cmbses.Location = New Point(189, 42)
+        cmbses.Margin = New Padding(6, 5, 6, 5)
         cmbses.Name = "cmbses"
-        cmbses.Size = New Size(443, 23)
+        cmbses.Size = New Size(631, 33)
         cmbses.TabIndex = 42
         ' 
         ' CheckBox1
         ' 
         CheckBox1.AutoSize = True
-        CheckBox1.Location = New Point(615, 23)
-        CheckBox1.Margin = New Padding(4, 3, 4, 3)
+        CheckBox1.Location = New Point(879, 38)
+        CheckBox1.Margin = New Padding(6, 5, 6, 5)
         CheckBox1.Name = "CheckBox1"
-        CheckBox1.Size = New Size(118, 49)
+        CheckBox1.Size = New Size(173, 79)
         CheckBox1.TabIndex = 402
         CheckBox1.Text = "Allocate Lecturer " & vbCrLf & "Based on " & vbCrLf & "Department"
         CheckBox1.UseVisualStyleBackColor = True
@@ -177,10 +177,10 @@ Partial Class Frm_TimeTable_genration_system
         btnUpdate.GradientTop = Color.DarkMagenta
         btnUpdate.Image = CType(resources.GetObject("btnUpdate.Image"), Image)
         btnUpdate.ImageAlign = ContentAlignment.MiddleLeft
-        btnUpdate.Location = New Point(628, 163)
-        btnUpdate.Margin = New Padding(4, 3, 4, 3)
+        btnUpdate.Location = New Point(897, 272)
+        btnUpdate.Margin = New Padding(6, 5, 6, 5)
         btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(104, 68)
+        btnUpdate.Size = New Size(149, 113)
         btnUpdate.TabIndex = 401
         btnUpdate.Text = "Auto " & vbCrLf & "Generate"
         btnUpdate.TextAlign = ContentAlignment.MiddleRight
@@ -197,10 +197,10 @@ Partial Class Frm_TimeTable_genration_system
         btnSave.GradientTop = Color.DarkMagenta
         btnSave.Image = CType(resources.GetObject("btnSave.Image"), Image)
         btnSave.ImageAlign = ContentAlignment.MiddleLeft
-        btnSave.Location = New Point(628, 80)
-        btnSave.Margin = New Padding(4, 3, 4, 3)
+        btnSave.Location = New Point(897, 133)
+        btnSave.Margin = New Padding(6, 5, 6, 5)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(104, 76)
+        btnSave.Size = New Size(149, 127)
         btnSave.TabIndex = 400
         btnSave.Text = "Generate" & vbCrLf & "Manually"
         btnSave.TextAlign = ContentAlignment.MiddleRight
@@ -208,16 +208,17 @@ Partial Class Frm_TimeTable_genration_system
         ' 
         ' Frm_TimeTable_genration_system
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(746, 241)
+        ClientSize = New Size(1066, 402)
         Controls.Add(CheckBox1)
         Controls.Add(GroupBox2)
         Controls.Add(GroupBox1)
         Controls.Add(btnUpdate)
         Controls.Add(btnSave)
-        Margin = New Padding(4, 3, 4, 3)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(6, 5, 6, 5)
         MaximizeBox = False
         Name = "Frm_TimeTable_genration_system"
         StartPosition = FormStartPosition.CenterScreen

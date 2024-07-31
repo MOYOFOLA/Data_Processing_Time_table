@@ -11,6 +11,6 @@ Imports RevmaxAPI
 
 Module ModFunc
 
-    Public revmax As New Revmaxlib()
+    ' Public revmax As New Revmaxlib()
 
 End Module

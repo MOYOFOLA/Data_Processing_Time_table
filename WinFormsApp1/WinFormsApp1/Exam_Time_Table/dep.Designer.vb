@@ -47,11 +47,11 @@ Partial Class dep
         GroupBox1.Controls.Add(TextBox1)
         GroupBox1.Controls.Add(ComboBox2)
         GroupBox1.Controls.Add(Label5)
-        GroupBox1.Location = New Point(14, 14)
-        GroupBox1.Margin = New Padding(4, 3, 4, 3)
+        GroupBox1.Location = New Point(20, 23)
+        GroupBox1.Margin = New Padding(6, 5, 6, 5)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Padding = New Padding(4, 3, 4, 3)
-        GroupBox1.Size = New Size(304, 370)
+        GroupBox1.Padding = New Padding(6, 5, 6, 5)
+        GroupBox1.Size = New Size(434, 617)
         GroupBox1.TabIndex = 2
         GroupBox1.TabStop = False
         ' 
@@ -66,10 +66,10 @@ Partial Class dep
         GelButton3.GradientTop = Color.DarkMagenta
         GelButton3.Image = My.Resources.Resources.vat_calculator
         GelButton3.ImageAlign = ContentAlignment.MiddleLeft
-        GelButton3.Location = New Point(259, 36)
-        GelButton3.Margin = New Padding(4, 3, 4, 3)
+        GelButton3.Location = New Point(370, 60)
+        GelButton3.Margin = New Padding(6, 5, 6, 5)
         GelButton3.Name = "GelButton3"
-        GelButton3.Size = New Size(40, 39)
+        GelButton3.Size = New Size(57, 65)
         GelButton3.TabIndex = 434
         GelButton3.Text = "+"
         GelButton3.UseVisualStyleBackColor = False
@@ -84,10 +84,10 @@ Partial Class dep
         GelButton2.GradientBottom = Color.Purple
         GelButton2.GradientTop = Color.DarkMagenta
         GelButton2.ImageAlign = ContentAlignment.MiddleLeft
-        GelButton2.Location = New Point(98, 310)
-        GelButton2.Margin = New Padding(4, 3, 4, 3)
+        GelButton2.Location = New Point(140, 517)
+        GelButton2.Margin = New Padding(6, 5, 6, 5)
         GelButton2.Name = "GelButton2"
-        GelButton2.Size = New Size(90, 42)
+        GelButton2.Size = New Size(129, 70)
         GelButton2.TabIndex = 433
         GelButton2.Text = "Exit"
         GelButton2.TextAlign = ContentAlignment.MiddleRight
@@ -104,10 +104,10 @@ Partial Class dep
         GelButton1.GradientTop = Color.DarkMagenta
         GelButton1.Image = CType(resources.GetObject("GelButton1.Image"), Image)
         GelButton1.ImageAlign = ContentAlignment.MiddleLeft
-        GelButton1.Location = New Point(195, 310)
-        GelButton1.Margin = New Padding(4, 3, 4, 3)
+        GelButton1.Location = New Point(279, 517)
+        GelButton1.Margin = New Padding(6, 5, 6, 5)
         GelButton1.Name = "GelButton1"
-        GelButton1.Size = New Size(90, 42)
+        GelButton1.Size = New Size(129, 70)
         GelButton1.TabIndex = 432
         GelButton1.Text = "Save"
         GelButton1.TextAlign = ContentAlignment.MiddleRight
@@ -117,11 +117,11 @@ Partial Class dep
         ' 
         ListBox1.BackColor = SystemColors.ButtonFace
         ListBox1.FormattingEnabled = True
-        ListBox1.ItemHeight = 15
-        ListBox1.Location = New Point(76, 134)
-        ListBox1.Margin = New Padding(4, 3, 4, 3)
+        ListBox1.ItemHeight = 25
+        ListBox1.Location = New Point(109, 223)
+        ListBox1.Margin = New Padding(6, 5, 6, 5)
         ListBox1.Name = "ListBox1"
-        ListBox1.Size = New Size(208, 139)
+        ListBox1.Size = New Size(295, 229)
         ListBox1.TabIndex = 1
         ' 
         ' Label2
@@ -130,10 +130,10 @@ Partial Class dep
         Label2.BackColor = Color.White
         Label2.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.Black
-        Label2.Location = New Point(7, 141)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Location = New Point(10, 235)
+        Label2.Margin = New Padding(6, 0, 6, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(57, 19)
+        Label2.Size = New Size(89, 27)
         Label2.TabIndex = 431
         Label2.Text = "All dept"
         ' 
@@ -143,10 +143,10 @@ Partial Class dep
         Label1.BackColor = Color.White
         Label1.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.Black
-        Label1.Location = New Point(7, 99)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(10, 165)
+        Label1.Margin = New Padding(6, 0, 6, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(39, 19)
+        Label1.Size = New Size(59, 27)
         Label1.TabIndex = 427
         Label1.Text = "Dept"
         ' 
@@ -154,10 +154,10 @@ Partial Class dep
         ' 
         TextBox1.BackColor = Color.White
         TextBox1.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(76, 98)
-        TextBox1.Margin = New Padding(4, 3, 4, 3)
+        TextBox1.Location = New Point(109, 163)
+        TextBox1.Margin = New Padding(6, 5, 6, 5)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(208, 26)
+        TextBox1.Size = New Size(295, 35)
         TextBox1.TabIndex = 426
         ' 
         ' ComboBox2
@@ -165,10 +165,10 @@ Partial Class dep
         ComboBox2.BackColor = Color.White
         ComboBox2.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ComboBox2.FormattingEnabled = True
-        ComboBox2.Location = New Point(76, 40)
-        ComboBox2.Margin = New Padding(4, 3, 4, 3)
+        ComboBox2.Location = New Point(109, 67)
+        ComboBox2.Margin = New Padding(6, 5, 6, 5)
         ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(176, 27)
+        ComboBox2.Size = New Size(250, 35)
         ComboBox2.TabIndex = 424
         ' 
         ' Label5
@@ -177,21 +177,22 @@ Partial Class dep
         Label5.BackColor = Color.White
         Label5.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(7, 40)
-        Label5.Margin = New Padding(4, 0, 4, 0)
+        Label5.Location = New Point(10, 67)
+        Label5.Margin = New Padding(6, 0, 6, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(53, 19)
+        Label5.Size = New Size(84, 27)
         Label5.TabIndex = 425
         Label5.Text = "Faculty"
         ' 
         ' dep
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(337, 408)
+        ClientSize = New Size(481, 680)
         Controls.Add(GroupBox1)
-        Margin = New Padding(4, 3, 4, 3)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(6, 5, 6, 5)
         Name = "dep"
         StartPosition = FormStartPosition.CenterScreen
         GroupBox1.ResumeLayout(False)

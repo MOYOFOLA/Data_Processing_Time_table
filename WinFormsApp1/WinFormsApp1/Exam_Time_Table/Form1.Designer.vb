@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         TextBox1 = New TextBox()
         SuspendLayout()
         ' 
@@ -31,18 +32,19 @@ Partial Class Form1
         TextBox1.Dock = DockStyle.Fill
         TextBox1.Font = New Font("Microsoft Sans Serif", 16F)
         TextBox1.Location = New Point(0, 0)
-        TextBox1.Margin = New Padding(4, 3, 4, 3)
+        TextBox1.Margin = New Padding(6, 5, 6, 5)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(405, 32)
+        TextBox1.Size = New Size(579, 44)
         TextBox1.TabIndex = 428
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(405, 38)
+        ClientSize = New Size(579, 63)
         Controls.Add(TextBox1)
-        Margin = New Padding(4, 3, 4, 3)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(6, 5, 6, 5)
         MaximizeBox = False
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
